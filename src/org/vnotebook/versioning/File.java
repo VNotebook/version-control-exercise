@@ -1,10 +1,6 @@
 package org.vnotebook.versioning;
 
 public class File {
-    private String fileType;
-    private Byte[] content;
-    private double size;
-
     public String getFileType() {
         return fileType;
     }
@@ -36,4 +32,8 @@ public class File {
     public void download() {
         // Suppose we implement download here
     }
+
+    private String fileType;
+    private Byte[] content;
+    private double size;
 }
