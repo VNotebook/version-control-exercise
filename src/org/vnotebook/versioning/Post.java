@@ -52,6 +52,10 @@ public class Post {
         // Suppose we implement rate here...
     }
 
+    public void share(String url) {
+        // Suppose we implement share here
+    }
+
     private String topic;
     private Date dateCreated;
     private Date lastUpdate;
