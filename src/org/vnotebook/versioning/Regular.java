@@ -1,9 +1,8 @@
 package org.vnotebook.versioning;
 
+import java.util.List;
+
 public class Regular extends User{
-    private int postViews;
-    private int strikesNumber;
-    private int starsNumber;
 
     public int getPostViews() {
         return postViews;
@@ -28,4 +27,9 @@ public class Regular extends User{
     public void setStarsNumber(int starsNumber) {
         this.starsNumber = starsNumber;
     }
+
+    private int postViews;
+    private int strikesNumber;
+    private int starsNumber;
+    private List<Post> posts;
 }
