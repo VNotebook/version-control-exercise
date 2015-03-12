@@ -32,4 +32,8 @@ public class File {
     public void share(String url) {
         // Suppose we implement share here
     }
+
+    public void download() {
+        // Suppose we implement download here
+    }
 }
