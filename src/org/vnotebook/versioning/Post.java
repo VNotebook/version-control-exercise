@@ -48,6 +48,10 @@ public class Post {
         // Suppose we implement comment here...
     }
 
+    public void rate(int stars) {
+        // Suppose we implement rate here...
+    }
+
     private String topic;
     private Date dateCreated;
     private Date lastUpdate;
