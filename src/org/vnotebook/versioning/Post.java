@@ -44,6 +44,10 @@ public class Post {
         this.posts = posts;
     }
 
+    public void comment(String comment) {
+        // Suppose we implement comment here...
+    }
+
     private String topic;
     private Date dateCreated;
     private Date lastUpdate;
