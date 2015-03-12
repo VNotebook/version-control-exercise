@@ -28,4 +28,8 @@ public class File {
     public void setSize(double size) {
         this.size = size;
     }
+
+    public void share(String url) {
+        // Suppose we implement share here
+    }
 }
