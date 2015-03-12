@@ -1,6 +1,7 @@
 package org.vnotebook.versioning;
 
 import java.util.Date;
+import java.util.List;
 
 public class Post {
     public String getTopic() {
@@ -35,8 +36,17 @@ public class Post {
         this.isAllowed = isAllowed;
     }
 
+    public List<Post> getPosts() {
+        return posts;
+    }
+
+    public void setPosts(List<Post> posts) {
+        this.posts = posts;
+    }
+
     private String topic;
     private Date dateCreated;
     private Date lastUpdate;
     private boolean isAllowed;
+    private List<Post> posts;
 }
