@@ -3,9 +3,6 @@ package org.vnotebook.versioning;
 import java.util.ArrayList;
 import java.util.Date;
 
-/**
- * Created by PCMiguel on 13/03/2015.
- */
 public class Forum {
     private String name;
     private Date dateCreated;
@@ -16,11 +13,11 @@ public class Forum {
         this.name = name;
         this.dateCreated = dateCreated;
         this.category = category;
-        this.posts=new ArrayList<Post>();
+        this.posts = new ArrayList<Post>();
     }
 
     public Forum() {
-        this.posts=new ArrayList<Post>();
+        this.posts = new ArrayList<Post>();
     }
 
     public ArrayList<Post> getPosts() {
@@ -54,5 +51,4 @@ public class Forum {
     public void setCategory(String category) {
         this.category = category;
     }
-
 }
